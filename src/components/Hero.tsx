@@ -3,7 +3,7 @@ import { ArrowDown, Phone, CalendarRange } from 'lucide-react';
 
 export default function Hero() {
   // Use the exact path pointing to our generated gorgeous image
-  const heroImgUrl = '/src/assets/images/hero_estate_bg_1780383909180.png';
+  const heroImgUrl = 'images/hero_estate_bg_1780383909180.png';
 
   const handleScrollToContact = () => {
     document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' });

@@ -128,21 +128,21 @@ export const TESTIMONIALS: Testimonial[] = [
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'photo-1',
-    url: '/src/assets/images/hero_estate_bg_1780383909180.png',
+    url: 'images/hero_estate_bg_1780383909180.png',
     title: 'Salon w stylu Modern Luxury',
     subtitle: 'Przykład pełnej aranżacji i fotografii wykonanej na potrzeby oferty premium.',
     category: 'Home Staging'
   },
   {
     id: 'photo-2',
-    url: '/src/assets/images/home_staging_kitchen_1780383928244.png',
+    url: 'images/home_staging_kitchen_1780383928244.png',
     title: 'Marmurowa, minimalistyczna kuchnia',
     subtitle: 'Kluczowe zbliżenie na detale i luksusowe wykończenia przyciąga wymagających kupujących.',
     category: 'Fotografia Wnętrz'
   },
   {
     id: 'photo-3',
-    url: '/src/assets/images/staging_living_room_1780383950860.png',
+    url: 'images/staging_living_room_1780383950860.png',
     title: 'Sypialnia z widokiem na las suwalski',
     subtitle: 'Nastrojowe, naturalne światło budujące poczucie harmonii, spokoju i przestronności.',
     category: 'Home Staging'
