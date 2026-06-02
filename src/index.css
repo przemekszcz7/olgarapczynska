@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Italiana&family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif-lux: "Cormorant Garamond", serif;
+  --font-display: "Italiana", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+
+  --color-lux-beige: #F5EFE7;
+  --color-lux-cream: #FAF7F2;
+  --color-lux-gold: #C7A26A;
+  --color-lux-gold-light: #D6B27C;
+  --color-lux-brown: #4A3B2E;
+  --color-lux-brown-dark: #2F241C;
+  --color-lux-sand: #EAE3D2;
+}
+
+@layer base {
+  html, body {
+    background-color: var(--color-lux-cream);
+    color: var(--color-lux-brown);
+    font-family: var(--font-sans);
+  }
+  
+  /* Delicate thin scrollbar for luxurious look */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-lux-cream);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-lux-gold);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-lux-brown);
+  }
+}
+
+/* Custom delicate animation overlays */
+.gold-glow {
+  box-shadow: 0 4px 30px rgba(199, 162, 106, 0.15);
+}
+
+.gold-glow-intense {
+  box-shadow: 0 10px 40px rgba(199, 162, 106, 0.25);
+}
